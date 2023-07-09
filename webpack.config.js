@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   mode: 'development',
@@ -21,6 +22,21 @@ module.exports = {
             presets: ['@babel/preset-env']
           }
         }
+      },
+      {
+        test: /\.s[ac]ss$/i,
+        use: [
+          {
+            loader: MiniCssExtractPlugin.loader
+            
+          },
+          // translates CSS to CommonJS
+          'css-loader',
+          // autoprefixes CSS
+          'postcss-loader',
+          // compiles SASS to CSS
+          'sass-loader',
+        ],
       }
     ]
   },
@@ -28,6 +44,9 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'Webpack-5 For Beginners',
     }),
+    new MiniCssExtractPlugin({
+      filename: '[name].css'
+    })
   ],
   output: {
     filename: '[name].bundle.js',

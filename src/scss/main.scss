@@ -1,0 +1,27 @@
+
+$clr-primary-200: hsla(210, 67%, 86%, 100%);
+$clr-primary-100: hsla(210, 67%, 98%, 100%);
+$clr-primary-300: hsla(210, 67%, 68%, 100%);
+$clr-primary-400: hsla(210, 68%, 60%, 100%);
+$clr-primary-500: hsla(210, 67%, 44%, 100%);
+$clr-primary-600: hsla(210, 67%, 39%, 100%);
+$clr-primary-700: hsla(210, 67%, 34%, 100%);
+$clr-primary-800: hsla(210, 67%, 29%, 100%);
+
+$clr-neutral-100: hsla(0, 0%, 98%, 100%);
+$clr-neutral-200: hsla(0, 0%, 94%, 100%);
+$clr-neutral-300: hsla(0, 0%, 85%, 100%);
+$clr-neutral-400: hsla(0, 0%, 75%, 100%);
+$clr-neutral-500: hsla(0, 0%, 60%, 100%);
+$clr-neutral-600: hsla(0, 0%, 38%, 100%);
+$clr-neutral-700: hsla(0, 0%, 19%, 100%);
+$clr-neutral-800: hsla(0, 0%, 7%, 100%);
+
+body {
+  color: $clr-neutral-100;
+  font-size: 2rem;
+  display: grid;
+  transition: all .5s;
+  user-select: none;
+  background-image: radial-gradient(circle, $clr-primary-600 28%, $clr-primary-800 100%);
+}
