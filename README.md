@@ -1,6 +1,6 @@
-# js-simple-navbar
+# webpack-beginner
 
-## This is JavaScript repository.
+## This is a configuration of webpack-5 for beginners.
 
 
 
