@@ -5,5 +5,12 @@
   "main": "index.js",
   "repository": "https://github.com/MAbdurahman/webpack-beginner.git",
   "author": "Mahdi Abdurrahman <mdbdrrhm@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }

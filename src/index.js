@@ -1,0 +1,1 @@
+console.log('from webpack-5 for beginners');
