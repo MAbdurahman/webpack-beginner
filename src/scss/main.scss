@@ -1,3 +1,26 @@
+/*=============================================
+          main.scss
+================================================*/
+//base styles
+@use './base/resets';
+@use './base/typography';
+@use './base/animations';
+@use './base/utils';
+
+
+//abstract styles
+@use './abstracts/functions';
+@use './abstracts/mixins';
+@use './abstracts/placeholders';
+
+//components styles
+@use './components/preloader';
+@use './components/header';
+@use './components/buttons';
+@use './components/anchors';
+@use './components/cards';
+
+
 
 $clr-primary-200: hsla(210, 67%, 86%, 100%);
 $clr-primary-100: hsla(210, 67%, 98%, 100%);
@@ -7,6 +30,9 @@ $clr-primary-500: hsla(210, 67%, 44%, 100%);
 $clr-primary-600: hsla(210, 67%, 39%, 100%);
 $clr-primary-700: hsla(210, 67%, 34%, 100%);
 $clr-primary-800: hsla(210, 67%, 29%, 100%);
+
+
+
 
 $clr-neutral-100: hsla(0, 0%, 98%, 100%);
 $clr-neutral-200: hsla(0, 0%, 94%, 100%);
