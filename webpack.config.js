@@ -10,6 +10,20 @@ module.exports = {
   devServer: {
     static: './dist',
   },
+  module: {
+    rules: [
+      {
+        test: /\.m?js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: "babel-loader",
+          options: {
+            presets: ['@babel/preset-env']
+          }
+        }
+      }
+    ]
+  },
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Webpack-5 For Beginners',
