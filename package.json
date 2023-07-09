@@ -1,0 +1,9 @@
+{
+  "name": "webpack-beginner",
+  "version": "1.0.0",
+  "description": "A Webpack-5 configuration for beginners",
+  "main": "index.js",
+  "repository": "https://github.com/MAbdurahman/webpack-beginner.git",
+  "author": "Mahdi Abdurrahman <mdbdrrhm@gmail.com>",
+  "license": "MIT"
+}
