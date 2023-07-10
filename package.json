@@ -30,7 +30,6 @@
     "webpack-dev-server": "^4.15.1"
   },
   "dependencies": {
-    "favicons-webpack-plugin": "^6.0.0",
     "jquery": "^3.7.0",
     "lodash": "^4.17.21",
     "normalize.css": "^8.0.1"
